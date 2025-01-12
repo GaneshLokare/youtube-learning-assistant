@@ -1,7 +1,7 @@
 # youtube-learning-assistant
 
 
-YouLearn is a Python application that automatically generates Q&A pairs and summaries from YouTube video transcripts, making it easier to learn and review content from educational videos.
+youtube-learning-assistant is a Python application that automatically generates Q&A pairs and summaries YouTube video, making it easier to learn and review content from educational videos.
 
 ## Features
 
@@ -44,17 +44,17 @@ pip install -r requirements.txt
 python app.py
 ```
 
-2. Open your web browser and navigate to the local URL shown in the terminal (typically http://127.0.0.1:7860)
+4. Open your web browser and navigate to the local URL shown in the terminal (typically http://127.0.0.1:7860)
 
-3. Enter a YouTube URL in the input field
+5. Enter a YouTube URL in the input field
 
-4. Choose your desired operation:
+6. Choose your desired operation:
    - Click "Generate Summary" to get a concise summary of the video
    - Click "Generate Q&A" to create question-answer pairs
    
-5. View the results directly in the interface
+7. View the results directly in the interface
 
-6. For Q&A pairs, you can download them as a CSV file using the download button
+8. For Q&A pairs, you can download them as a CSV file using the download button
 
 ## Project Structure
 
@@ -87,13 +87,7 @@ youtube-learning-assistant
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to Gradio for the web interface framework
-- Thanks to YouTube Transcript API for transcript access
-- Special thanks to all contributors and users of this project
+This project is licensed under the GPL-3.0 license.
 
 ## Contact
 
