@@ -59,7 +59,7 @@ python app.py
 ## Project Structure
 
 ```
-yyoutube-learning-assistant/
+youtube-learning-assistant/
 ├── app.py                     # Main application file
 youtube-learning-assistant
     ├── get_transcript.py     # YouTube transcript fetching functionality

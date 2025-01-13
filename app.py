@@ -28,7 +28,7 @@ def generate_summary(url, progress=gr.Progress()):
         
         complete_summary = ""
         words = transcript.split()
-        
+        # process only approx 5000 words at a time to avoid context window error
         for i in progress.tqdm(range(0, len(words), 5000), desc="Generating Summary"):
             chunk = " ".join(words[i:i+5000])
             summarizer = Summarize()
