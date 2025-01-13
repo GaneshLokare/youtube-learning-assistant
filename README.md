@@ -77,28 +77,5 @@ src
 - YouTube Transcript API
 - Other dependencies listed in requirements.txt
 
-## Contributing
 
-1. Fork the repository
-2. Create a new branch for your feature
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
 
-## License
-
-This project is licensed under the GPL-3.0 license.
-
-## Contact
-
-- Create an issue in this repository for bug reports or feature requests
-- Submit pull requests for contributing to the project
-
-## Roadmap
-
-Future features and improvements planned:
-- Multiple language support
-- Batch processing of multiple videos
-- Additional export formats
-- Custom Q&A templates
-- Integration with learning management systems
