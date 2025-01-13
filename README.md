@@ -61,7 +61,7 @@ python app.py
 ```
 youtube-learning-assistant/
 ├── app.py                     # Main application file
-youtube-learning-assistant
+src
     ├── get_transcript.py     # YouTube transcript fetching functionality
     ├── qa_generate.py        # Q&A generation module
     ├── summarize.py         # Summary generation module
