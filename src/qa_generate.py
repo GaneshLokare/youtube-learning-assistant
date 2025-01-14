@@ -1,4 +1,4 @@
-from get_transcript import Transcript
+from src.get_transcript import Transcript
 from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.output_parser import StrOutputParser
@@ -34,6 +34,8 @@ class GenerateQA:
                 Ensure each question has a corresponding, accurate answer derived from the transcript.
                  
                 You must ALWAYS respond with a JSON object containing an array of Q&A pairs.
+                 
+                Your output should be in English. 
                  
                 Return ONLY a JSON object with the specified format.
 

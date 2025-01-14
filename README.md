@@ -38,7 +38,8 @@ pip install -r requirements.txt
 ## Usage
 
 1. Open your openai account and create a openai api key.
-2. Create a ".env" file and put your openai api key.
+2. Create a ".env" file and put your openai api key in it.
+    - OPENAI_API_KEY = "your_openai_api_key"
 3. Start the application:
 ```bash
 python app.py

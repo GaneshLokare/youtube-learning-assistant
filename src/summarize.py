@@ -1,4 +1,4 @@
-from get_transcript import Transcript
+from src.get_transcript import Transcript
 from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.output_parser import StrOutputParser
@@ -25,6 +25,7 @@ class Summarize:
                     Break the summary into paragraphs for better readability.
                     Include detailed information about the main ideas, examples, or critical data mentioned in the transcript.
                     The output should be easy to read, insightful, and visually engaging for end-users.
+                    Your output should be in English.   
 
                 Transcript:
                 {transcript}"""),

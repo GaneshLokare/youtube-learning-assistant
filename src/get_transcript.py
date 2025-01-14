@@ -24,7 +24,7 @@ class Transcript:
                 return parse_qs(parsed_url.query)['v'][0]
         raise ValueError('Invalid YouTube URL')
 
-    def get_transcript(self, language='en'):
+    def get_transcript(self, language='hi'):
         """
         Get transcript from YouTube video
         Parameters:
