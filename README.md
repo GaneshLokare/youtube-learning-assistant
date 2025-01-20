@@ -60,14 +60,15 @@ python app.py
 ## Project Structure
 
 ```
-youtube-learning-assistant/
+youtube-learning-assistant/                    
+├── src/
+│    ├── __init__.py
+│    ├── get_transcript.py     # YouTube transcript fetching functionality
+│    ├── qa_generate.py        # Q&A generation module
+│    ├── summarize.py          # Summary generation module
 ├── app.py                     # Main application file
-src
-    ├── get_transcript.py     # YouTube transcript fetching functionality
-    ├── qa_generate.py        # Q&A generation module
-    ├── summarize.py         # Summary generation module
-├── requirements.txt        # Project dependencies
-└── README.md               # Project documentation
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project documentation
 ```
 
 ## Requirements
